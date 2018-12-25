@@ -1,0 +1,24 @@
+{
+  "name": "freeze-scroll",
+  "version": "1.0.0",
+  "description": "prevent scroll event pass through the layer,防止滚动穿透",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wingtao/freeze-scroll.git"
+  },
+  "keywords": [
+    "freeze",
+    "scroll",
+    "react"
+  ],
+  "author": "wingtao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wingtao/freeze-scroll/issues"
+  },
+  "homepage": "https://github.com/wingtao/freeze-scroll#readme"
+}
