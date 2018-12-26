@@ -1,6 +1,20 @@
-## freeze-scroll
-prevent touch move pass through,解决滚动穿透的问题
+## Introduction
+prevent touch move pass through, the common scene is when you touch the layer the body scroll too,
 
+## Usage
+
+1. react version
+2. normal version
+
+## Examples
+
+todo
+
+## TODO LIST
+
+- [ ] react component
+- [ ] normal version
+- [ ] bundle
 
 ## License
 
