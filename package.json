@@ -1,6 +1,6 @@
 {
   "name": "freeze-scroll",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "prevent scroll event pass through the layer,防止滚动穿透",
   "main": "/dist/index.js",
   "scripts": {
