@@ -4,7 +4,7 @@
   "description": "prevent scroll event pass through the layer,防止滚动穿透",
   "main": "/dist/index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js",
+    "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -41,12 +41,12 @@
   },
   "homepage": "https://github.com/wingtao/freeze-scroll#readme",
   "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.2.3",
-    "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.4",
-    "html-webpack-plugin": "^3.2.0",
-    "webpack": "^4.28.2",
-    "webpack-cli": "^3.1.2"
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-latest": "^6.24.1",
+    "rollup": "^1.1.2",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-uglify": "^6.0.2"
   }
 }
